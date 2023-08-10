@@ -51,6 +51,13 @@ module.exports = {
         '4xl': '2.5rem',
         '5xl': '3.25rem',
         '6xl': '4rem',
+         'heading-bold': [
+            '24px',
+            {
+              lineHeight: '140%',
+              fontWeight: '700',
+            },
+        ],
       },
       inset: {
         'full': '100%',
