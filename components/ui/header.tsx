@@ -10,21 +10,12 @@ export default function Header() {
           {/* Site branding */}
           <div className="shrink-0">
             {/* Logo */}
-            <Link href="/" 
-              className="hidden md:block" aria-label="Cruip">
-                <Image 
-                  src='/images/lloogo.png'
-                  alt='logo'
-                  width={60}
-                  height={60}
-                />
-            </Link>
+
+            <Link href='/' className='hidden md:flex md:items-center md:gap-4'>
+              <Image src='/images/lloogo.png' alt='logo' width={50} height={50} />
+              <p className='text-heading-bold text-purple-600'>Mō Ki</p>
+             </Link>
           </div>
-          <p
-            className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
-          >
-            Mō Ki
-          </p>
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
