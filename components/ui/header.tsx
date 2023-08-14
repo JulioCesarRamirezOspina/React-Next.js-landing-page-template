@@ -13,7 +13,7 @@ export default function Header() {
 
             <Link href='/' className='hidden md:flex md:items-center md:gap-4'>
               <Image src='/images/lloogo.png' alt='logo' width={50} height={50} />
-              <p className='text-heading-bold text-purple-600'>Mō Ki</p>
+              <p className='text-heading-bold text-purple-600'>Mō K!</p>
              </Link>
           </div>
 
