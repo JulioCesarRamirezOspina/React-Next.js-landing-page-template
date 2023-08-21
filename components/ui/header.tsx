@@ -26,7 +26,7 @@ export default function Header() {
                   href="#features"
                   className="text-lg text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Features
+                  خدمات
                 </Link>
               </li>
 
@@ -35,7 +35,7 @@ export default function Header() {
                   href="#solutions"
                   className="text-lg text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Solutions
+                  حلول
                 </Link>
               </li>              
               
@@ -44,7 +44,7 @@ export default function Header() {
                   href="#newsletter"
                   className="text-lg text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Newsletter
+                القائمة البريدية
                 </Link>
               </li>
 
@@ -53,7 +53,7 @@ export default function Header() {
                   href="#testimonials"
                   className="text-lg text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Testimonials
+                  التوصيات
                 </Link>
               </li>
             </ul>
@@ -67,13 +67,13 @@ export default function Header() {
                   href="/signin"
                   className="text-lg text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Sign in
+                  تسجيل الدخول
                 </Link>
               </li>
               
               <li>
                 <Link href="/signup" className="btn-sm text-lg text-white bg-purple-600 hover:bg-gray-900 ml-3">
-                  Sign up
+                  اشتراك
                 </Link>
               </li>
             </ul>
