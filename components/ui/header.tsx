@@ -76,7 +76,7 @@ export default function Header() {
 
             <Link href='/' className='hidden md:flex md:items-center md:gap-4'>
               <Image src='/images/logo.png' alt='logo' width={50} height={50} />
-              <p className='text-2xl font-bold text-white'>Mō K!</p>
+              {/* <p className='text-2xl font-bold text-white'>Mō K!</p> */}
              </Link>
           </div>
 
