@@ -62,27 +62,27 @@ export default function MobileMenu() {
         <ul className="bg-gray-800 px-4 py-2">
         <li>
             <Link href="#features" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-              خدمات
+              Features
             </Link>
           </li>
           <li>
             <Link href="#solutions" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-              حلول
-            </Link>
-          </li>
-          <li>
-            <Link href="#testimonials" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-              التوصيات
+              Solutions
             </Link>
           </li>
           <li>
             <Link href="#newsletter" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-              القائمة البريدية
+              Newsletter
+            </Link>
+          </li>
+          <li>
+            <Link href="#testimonials" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+              Testimonials
             </Link>
           </li>
           <li>
             <Link href="/signin" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-              تسجيل الدخول
+              Sign in
             </Link>
           </li>
           <li>
@@ -90,7 +90,7 @@ export default function MobileMenu() {
               href="/signup"
               className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
             >
-              اشتراك
+              Sign up
             </Link>
           </li>
         </ul>
