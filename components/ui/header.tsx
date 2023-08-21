@@ -37,7 +37,16 @@ export default function Header() {
                 >
                   حلول
                 </Link>
-              </li>              
+              </li>    
+              
+              <li>
+              <Link
+                  href="#testimonials"
+                  className="text-lg text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  التوصيات
+                </Link>
+              </li>
               
               <li>
               <Link
@@ -48,14 +57,6 @@ export default function Header() {
                 </Link>
               </li>
 
-              <li>
-              <Link
-                  href="#testimonials"
-                  className="text-lg text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  التوصيات
-                </Link>
-              </li>
             </ul>
           </div>
 
