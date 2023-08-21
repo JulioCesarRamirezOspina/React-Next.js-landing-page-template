@@ -21,24 +21,16 @@ export default function Header() {
           {/* Desktop navigation */}
           <div className="hidden xl:flex xl:grow">
             <ul className="flex grow justify-center flex-wrap items-center">
-              <li>
-                <Link
-                  href="#features"
+              
+            <li>
+              <Link
+                  href="#newsletter"
                   className="text-lg text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  خدمات
+                القائمة البريدية
                 </Link>
               </li>
 
-              <li>
-              <Link
-                  href="#solutions"
-                  className="text-lg text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  حلول
-                </Link>
-              </li>    
-              
               <li>
               <Link
                   href="#testimonials"
@@ -47,13 +39,22 @@ export default function Header() {
                   التوصيات
                 </Link>
               </li>
-              
+            
               <li>
               <Link
-                  href="#newsletter"
+                  href="#solutions"
                   className="text-lg text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                القائمة البريدية
+                  حلول
+                </Link>
+              </li>    
+
+              <li>
+                <Link
+                  href="#features"
+                  className="text-lg text-white hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  خدمات
                 </Link>
               </li>
 
