@@ -12,7 +12,7 @@ export default function Banner() {
           <div className="bg-slate-800 text-slate-50 text-sm p-3 md:rounded shadow-lg flex justify-between">
             <div className="text-slate-500 inline-flex">
               <span className="italic px-1.5">TRUST US FOR YOUR BUSINESS ... </span>{' '}
-              <a className="font-medium hover:underline text-emerald-400" href="/signup" target="_blank" rel="noreferrer">
+              <a className="font-medium hover:underline text-emerald-400" href="/signup" rel="noreferrer">
                 START NOW
               </a>
             </div>
