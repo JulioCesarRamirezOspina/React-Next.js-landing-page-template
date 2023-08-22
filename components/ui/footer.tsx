@@ -15,7 +15,7 @@ export default function Footer() {
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
                 {/* Logo */}
-                <Link href="/" className="inline-block" aria-label="Cruip">
+                <Link href="/" className="flex items-center" aria-label="Cruip">
                   <Image 
                     src='/images/logo.png'
                     alt='logo'
