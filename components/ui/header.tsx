@@ -12,10 +12,10 @@ export default function Header() {
           <div className="flex grow shrink-0 justify-center items-center">
             {/* Logo */}
 
-            <Link href='/' className='hidden md:flex md:items-center md:gap-4'>
+            <Link href='/' className='hidden xl:flex xl:items-center xl:gap-4'>
               <Image src='/images/logo.png' alt='logo' width={50} height={50} />
               <p className='text-2xl font-bold text-white'>Mō K!</p>
-             </Link>
+            </Link>
           </div>
 
           {/* Desktop navigation */}
@@ -59,7 +59,7 @@ export default function Header() {
             </ul>
           </div>
 
-          <div className="hidden md:flex md:grow">
+          <div className="hidden xl:flex xl:grow">
             {/* Desktop sign in links */}
             <ul className="flex grow justify-center flex-wrap items-center">
               <li>
