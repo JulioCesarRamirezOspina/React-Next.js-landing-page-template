@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function MobileMenu() {
   const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false)
@@ -31,7 +32,7 @@ export default function MobileMenu() {
   })
 
   return (
-    <div className="md:hidden">
+    <div className="xl:hidden">
       {/* Hamburger button */}
       <button
         ref={trigger}
@@ -60,7 +61,7 @@ export default function MobileMenu() {
         style={mobileNavOpen ? { maxHeight: mobileNav.current?.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
       >
         <ul className="bg-gray-800 px-4 py-2">
-        <li>
+          <li>
             <Link href="#features" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Features
             </Link>
